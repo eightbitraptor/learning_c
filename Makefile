@@ -7,4 +7,4 @@ debugflags=-g
 cflags= $(debugflags) $(optflags) $(warnflags)
 
 arrays: arrays.c
-	$(CC) $(cflags) arrays.c
+	$(CC) $(cflags) -o arrays arrays.c
