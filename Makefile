@@ -8,3 +8,6 @@ cflags= $(debugflags) $(optflags) $(warnflags)
 
 arrays: arrays.c
 	$(CC) $(cflags) -o arrays arrays.c
+
+single_list: single_list.c
+	$(CC) $(cflags) -o single_list single_list.c
